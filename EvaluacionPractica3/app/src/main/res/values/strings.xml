@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">EvaluacionPractica3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="categoria">Agregar Categoria</string>
+    <string name="producto">Agregar Producto</string>
+    <string name="Q_categoria">Consultar Categoria</string>
+    <string name="Q_Producto">Consultar Producto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_Cat">Ingresar Categoria</string>
+    <string name="title_Pro">Registrar Producto</string>
+    <string name="nav_correo">wilson.moreno21@itca.edu.sv</string>
+    <string name="title_cat">Registro Categoria</string>
+
+    <string-array name="valorspinner">
+        <item>Seleccione una opción</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="estado_producto">
+        <item>Seleccione estado del Producto</item>
+        <!--<color>black</color>-->
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="sp_fk">
+        <item>Seleccione una opción</item>
+    </string-array>
+</resources>
