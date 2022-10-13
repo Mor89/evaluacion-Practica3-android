@@ -77,16 +77,8 @@
         android:layout_margin="16dp"
         android:entries="@array/valorspinner"
         android:minHeight="48dp" />
-<!--
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:orientation="horizontal"
-    android:layout_marginTop="30dp"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
-    android:background="@color/blue_200"
-    >-->
+
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btncat"
         android:layout_width="match_parent"
@@ -96,34 +88,13 @@
         android:gravity="center"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="50dp"
         android:backgroundTint="#A50404"
         android:textColor="@color/white"
         android:drawableStart="@drawable/ic_save"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
         />
-
-
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnNew"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Nueva Categoria"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="15dp"
-        android:backgroundTint="#A50404"
-        android:textColor="@color/white"
-        android:drawableStart="@drawable/ic_new"
-        android:paddingLeft="50dp"
-        android:paddingRight="50dp"
-        />
-
-
 
 
 
@@ -135,9 +106,8 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textSize="12dp"
-        android:layout_marginTop="30dp"
         android:textStyle="bold"
-
+        android:layout_margin="16dp"
         />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

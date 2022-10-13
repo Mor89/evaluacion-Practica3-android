@@ -33,7 +33,7 @@ import java.util.Map;
 public class Categoria extends Fragment {
     private EditText etid, etnombre;
     private Spinner sp1;
-    private Button btncat, btnNew;
+    private Button btncat;
     private TextView tvrespuesta;
 
     String datoSelect = "";
@@ -57,7 +57,6 @@ public class Categoria extends Fragment {
         etnombre = root.findViewById(R.id.etnombre);
         sp1 = root.findViewById(R.id.sp1);
         btncat = root.findViewById(R.id.btncat);
-        btnNew = root.findViewById(R.id.btnNew);
         tvrespuesta = root.findViewById(R.id.tvrespuesta);
 
 
@@ -83,14 +82,13 @@ public class Categoria extends Fragment {
             public void onClick(View view) {
                 //Toast.makeText(getContext(), "Clic en botón Guardar", Toast.LENGTH_SHORT).show();
                 //recibirJson(getContext());
-
-                String id = etid.getText().toString();
+                String idcategoria = etid.getText().toString();
                 String nombrecat = etnombre.getText().toString();
                 String estado = datoSelect;
 
                 String dato = "";
 
-                if (id.length() == 0) {
+                if (idcategoria.length() == 0) {
                     etid.setError("Campo obligatorio");
                 } else if (nombrecat.length() == 0) {
                     etnombre.setError("Campo obligatorio");
@@ -98,10 +96,12 @@ public class Categoria extends Fragment {
                     dato = "Debe seleccionar una ópcion";
                     Toast.makeText(getContext(), "" + dato, Toast.LENGTH_SHORT).show();
                 } else {
-                    guardarcategoria(getContext(), Integer.parseInt(id), nombrecat, Integer.parseInt(estado));
+                    guardarcategoria(getContext(), Integer.parseInt(idcategoria), nombrecat, Integer.parseInt(estado));
                 }
-        }
+
+            }
         });
+
 
         return root;
     }
@@ -188,7 +188,6 @@ public class Categoria extends Fragment {
         };
         MySingleton.getInstance(context).addToRequestQueue(request);
     }
-
 
 }
 

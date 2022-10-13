@@ -257,7 +257,7 @@ public class Productos extends Fragment {
     private void save_productos(final Context context, final String id_prod, final String nom_prod, final String des_prod, final String stock,
                                 final String precio, final String uni_medida, final String estado_prod, final String categoria){
 
-        String url = "";
+        String url = "https://wilson89.000webhostapp.com/ws/guardar_productos.php";
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
