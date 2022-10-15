@@ -3,7 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
+        android:enabled="true"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Eliminar Categoria"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Midificar_C"
+        android:enabled="true"
+        android:orderInCategory="101"
+        android:title="Modificar Categoria"
+        app:showAsAction="never" />
+    <item
+        android:enabled="true"
+        android:orderInCategory="102"
+        android:title="Eliminar Producto"
+        app:showAsAction="never" />
+    <item
+        android:enabled="true"
+        android:orderInCategory="103"
+        android:title="Modificar Categoria"
         app:showAsAction="never" />
 </menu>

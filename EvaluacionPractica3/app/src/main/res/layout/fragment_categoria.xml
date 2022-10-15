@@ -39,6 +39,7 @@
         android:layout_marginRight="15dp"
         android:drawableStart="@drawable/ic_key"
         android:drawablePadding="5dp"
+        android:inputType="number"
         android:hint="Ingrese id de categoria"
         android:minHeight="48dp"
         android:paddingLeft="10dp" />

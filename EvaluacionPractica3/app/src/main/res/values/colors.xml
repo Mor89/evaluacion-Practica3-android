@@ -10,5 +10,7 @@
     <color name="green">#8BC34A</color>
     <color name="indigo_900">#1A237E</color>
     <color name="blue_200">#90CAF9</color>
-
+    <color name="primari">#03a9f4</color>
+    <color name="primari_dark">#007ac1</color>
+    <color name="accent">#FF9800</color>
 </resources>

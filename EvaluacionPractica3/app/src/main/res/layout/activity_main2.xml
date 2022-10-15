@@ -1,15 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
     tools:context=".MainActivity2">
 
-    <androidx.appcompat.widget.AppCompatToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:srcCompat="@drawable/inventario2"
+        android:layout_weight="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="textPersonName"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edt_style"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint=" Password"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="40dp"
+        android:inputType="textPassword"
+        android:layout_weight="2"
+        android:background="@drawable/edt_style"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/ingrsar"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_weight="3"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_style"
         />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

@@ -28,5 +28,5 @@
         android:src="@drawable/descarga"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginHorizontal=""
+        android:layout_marginHorizontal="5dp"/>
 </androidx.appcompat.widget.LinearLayoutCompat>

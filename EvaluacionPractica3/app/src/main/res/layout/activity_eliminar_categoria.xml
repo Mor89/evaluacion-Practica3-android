@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_naranja"
+    android:layout_height="match_parent"
+    tools:context=".Eliminar_Categoria">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Eliminar categoria"
+    android:textColor="@color/black"
+    android:textSize="25dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:layout_marginTop="80dp"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/eliminar"
+        android:layout_gravity="center"
+        android:grabity="center"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:drawableStart="@drawable/ic_key"
+        android:drawablePadding="5dp"
+        android:background="@drawable/estiloespinner1"
+        android:inputType="number"
+        android:hint="Ingrese id de categoria"
+        android:minHeight="48dp"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Categoria"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/blue_200"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_delete"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
