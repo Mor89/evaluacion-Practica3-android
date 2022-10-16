@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_200"
+    android:background="@drawable/login"
     tools:context=".ui.categorias.Categoria">
 
     <!-- TODO: Update blank fragment layout -->
@@ -41,6 +41,7 @@
         android:drawablePadding="5dp"
         android:inputType="number"
         android:hint="Ingrese id de categoria"
+        android:textColorHint="@color/white"
         android:minHeight="48dp"
         android:paddingLeft="10dp" />
 
@@ -55,6 +56,7 @@
         android:drawableStart="@drawable/ic_baseline_view"
         android:drawablePadding="5dp"
         android:hint="Ingrese nombre de categoria"
+        android:textColorHint="@color/white"
         android:minHeight="48dp"
         android:paddingLeft="10dp" />
 
@@ -93,6 +95,23 @@
         android:backgroundTint="#A50404"
         android:textColor="@color/white"
         android:drawableStart="@drawable/ic_save"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLimpiarCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nueva Categoria"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#A50404"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/ic_replay"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
         />

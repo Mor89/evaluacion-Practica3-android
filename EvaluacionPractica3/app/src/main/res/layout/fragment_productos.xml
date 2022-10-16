@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_200"
+    android:background="@drawable/login"
     tools:context=".ui.productos.Productos">
 
     <!-- TODO: Update blank fragment layout -->
@@ -224,7 +224,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
-            android:background="@color/blue_200">
+            android:background="@color/accent">
 
             <Button
                 android:id="@+id/btnSave"

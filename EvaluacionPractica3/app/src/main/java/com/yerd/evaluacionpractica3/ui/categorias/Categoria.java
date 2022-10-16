@@ -33,7 +33,7 @@ import java.util.Map;
 public class Categoria extends Fragment {
     private EditText etid, etnombre;
     private Spinner sp1;
-    private Button btncat;
+    private Button btncat, btnNew;
     private TextView tvrespuesta;
 
     String datoSelect = "";
@@ -57,6 +57,7 @@ public class Categoria extends Fragment {
         etnombre = root.findViewById(R.id.etnombre);
         sp1 = root.findViewById(R.id.sp1);
         btncat = root.findViewById(R.id.btncat);
+        btnNew = root.findViewById(R.id.btnLimpiarCategoria);
         tvrespuesta = root.findViewById(R.id.tvrespuesta);
 
 
@@ -102,6 +103,12 @@ public class Categoria extends Fragment {
             }
         });
 
+        btnNew.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                clear();
+            }
+        });
 
         return root;
     }
@@ -187,6 +194,12 @@ public class Categoria extends Fragment {
             }
         };
         MySingleton.getInstance(context).addToRequestQueue(request);
+    }
+
+    private void clear(){
+        etid.setText(null);
+        etnombre.setText(null);
+        sp1.setSelection(0);
     }
 
 }

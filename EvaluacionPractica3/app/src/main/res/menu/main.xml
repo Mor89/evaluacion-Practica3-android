@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/Eliminar_c"
         android:enabled="true"
         android:orderInCategory="100"
         android:title="Eliminar Categoria"
@@ -14,11 +14,13 @@
         android:title="Modificar Categoria"
         app:showAsAction="never" />
     <item
+        android:id="@+id/Eliminar_p"
         android:enabled="true"
         android:orderInCategory="102"
         android:title="Eliminar Producto"
         app:showAsAction="never" />
     <item
+        android:id="@+id/Modificar_p"
         android:enabled="true"
         android:orderInCategory="103"
         android:title="Modificar Categoria"
