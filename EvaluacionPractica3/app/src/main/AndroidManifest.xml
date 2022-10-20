@@ -15,14 +15,6 @@
             android:name=".Eliminar_Categoria"
             android:exported="false" />
         <activity
-            android:name=".Eliminar_C"
-            android:exported="false" />
-        <activity
-            android:name=".Eliminar_categoria"
-            android:exported="false"
-            android:label="@string/title_activity_eliminar_categoria"
-            android:theme="@style/Theme.EvaluacionPractica3.NoActionBar" />
-        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity

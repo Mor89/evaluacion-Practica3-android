@@ -157,7 +157,7 @@ public class Categoria extends Fragment {
 
 
     private void guardarcategoria(final Context context, final int id_categoria, final String nom_categoria, final int estado_categoria) {
-        String url = "https://wilson89.000webhostapp.com/ws/guardar.php";
+        String url = "https://wilson89.000webhostapp.com/ws/guardar_categorias.php";
         StringRequest request = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {

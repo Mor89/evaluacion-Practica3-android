@@ -4,75 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fondo_naranja"
+    android:background="@drawable/mdera"
     android:layout_height="match_parent"
     tools:context=".Eliminar_Categoria">
 
     <TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Eliminar categoria"
-    android:textColor="@color/black"
-    android:textSize="25dp"
-    android:layout_gravity="center"
-    android:gravity="center"
-    android:textStyle="bold"
-    android:layout_marginTop="80dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar categoria"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="130dp"/>
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         android:src="@drawable/eliminar"
         android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         />
 
 
-   <com.google.android.material.textfield.TextInputLayout
-       android:id="@+id/ti_text"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_marginTop="20dp"
-       android:paddingLeft="20dp"
-       android:paddingRight="20dp"
-       android:textColorHint="@color/purple_700">
-
-       <EditText
-           android:id="@+id/et_idEliminar"
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:background="@drawable/estiloespinner1"
-           android:drawableStart="@drawable/ic_key"
-           android:hint="* Id Producto"
-           android:drawablePadding="20dp"
-           android:textSize="16dp"
-           android:inputType="number"
-           android:ems="20"/>
-
-
-
-   </com.google.android.material.textfield.TextInputLayout>
-
-    <LinearLayout
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ti_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp">
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColorHint="@color/purple_700">
 
-        <Button
-            android:id="@+id/btnEliminar"
-            style="@style/Widget.AppCompat.Button.Colored"
+        <EditText
+            android:id="@+id/et_idEli"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@color/green"
-            android:text="ELIMINAR"
-            tools:ignore="TextContrastCheck" />
+            android:background="@drawable/estiloespinner1"
+            android:drawableStart="@drawable/ic_key"
+            android:hint="* Id Producto"
+            android:drawablePadding="20dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:ems="20"/>
 
 
 
-    </LinearLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/green"
+        android:text="ELIMINAR"
+        tools:ignore="TextContrastCheck"
+        />
 
 
 

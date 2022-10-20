@@ -211,7 +211,7 @@ public class Productos extends Fragment {
         lista = new ArrayList<String>();
         lista.add("Seleccione Categoria");
 
-        String url = "https://wilson89.000webhostapp.com/ws/buscar_Categoria.php";
+        String url = "https://wilson89.000webhostapp.com/ws/buscarAllCategoria.php";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override

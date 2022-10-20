@@ -37,14 +37,22 @@
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/app_bar_main.xml" value="0.42916666666666664" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/content_main.xml" value="0.42916666666666664" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/eliminar.xml" value="0.21614583333333334" />
+        <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_blank.xml" value="0.19984802431610943" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_categoria.xml" value="0.3619791666666667" />
+        <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_eliminar__cat.xml" value="0.2066869300911854" />
+        <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_eliminar__categoria.xml" value="0.2066869300911854" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_first.xml" value="0.42916666666666664" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_gallery.xml" value="0.42916666666666664" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_home.xml" value="0.3619791666666667" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_productos.xml" value="0.20871327254305977" />
+        <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_qcategorias.xml" value="0.2066869300911854" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_qproductos.xml" value="0.2066869300911854" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_second.xml" value="0.2066869300911854" />
+        <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/fragment_slideshow.xml" value="0.2066869300911854" />
+        <entry key="..\:/EvaluacionPractica3/app/src/main/res/layout/nav_header_main.xml" value="0.2066869300911854" />
+        <entry key="..\:/EvaluacionPractica3/app/src/main/res/menu/activity_main_drawer.xml" value="0.3795918367346939" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/menu/bottom_nav_menu.xml" value="0.42916666666666664" />
+        <entry key="..\:/EvaluacionPractica3/app/src/main/res/menu/home.xml" value="0.37962962962962965" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/menu/main.xml" value="0.42916666666666664" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22" />
         <entry key="..\:/EvaluacionPractica3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22" />
